@@ -1,0 +1,23 @@
+{
+  "name": "maguwohost-static",
+  "version": "1.0.0",
+  "description": "Static for the maguwohost site",
+  "main": "main.js",
+  "scripts": {
+    "watch": "webpack --progress --colors --watch",
+    "build": "webpack"
+  },
+  "author": "Mangin Alexander <mangin.alexander@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1"
+  }
+}

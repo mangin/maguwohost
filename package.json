@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mangin/maguwohost/issues"
   },
-  "homepage": "https://github.com/mangin/maguwohost#readme"
+  "homepage": "https://github.com/mangin/maguwohost#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "webpack": "^1.13.1"
+  }
 }
